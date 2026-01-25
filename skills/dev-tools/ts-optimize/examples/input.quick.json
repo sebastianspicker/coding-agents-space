@@ -1,0 +1,18 @@
+{
+  "project": {
+    "root": "/workspace",
+    "tsconfigPath": "/workspace/tsconfig.json"
+  },
+  "actions": [
+    {
+      "type": "debug",
+      "debugLevel": "quick"
+    },
+    {
+      "type": "recommend",
+      "recommendFocus": [
+        "types"
+      ]
+    }
+  ]
+}

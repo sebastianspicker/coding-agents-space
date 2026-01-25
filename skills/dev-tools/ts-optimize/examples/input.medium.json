@@ -1,0 +1,26 @@
+{
+  "project": {
+    "root": "/workspace",
+    "tsconfigPath": "/workspace/tsconfig.json"
+  },
+  "actions": [
+    {
+      "type": "debug",
+      "debugLevel": "medium"
+    },
+    {
+      "type": "dedupe",
+      "dedupe": {
+        "minTokens": 70,
+        "strategy": "token-hash"
+      }
+    },
+    {
+      "type": "recommend",
+      "recommendFocus": [
+        "perf",
+        "types"
+      ]
+    }
+  ]
+}

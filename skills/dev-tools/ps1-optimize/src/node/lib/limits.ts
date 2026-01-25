@@ -1,0 +1,5 @@
+export const LIMITS = {
+  MAX_FILES_HEURISTICS: 400,
+  MAX_FINDINGS_PER_CATEGORY: 250,
+  MAX_PATCHES: 120
+} as const;

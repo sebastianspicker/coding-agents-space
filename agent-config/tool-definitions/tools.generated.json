@@ -1,0 +1,16 @@
+[
+  {
+    "name": "dev_tools_ts_optimize",
+    "description": "Optimize a TypeScript project: debug (quick/medium/complex), dedupe detection, lint fixes, API migrations, refactor patches, codegen, and optimization recommendations.",
+    "parameters": {
+      "$ref": "../skills/dev-tools/ts-optimize/schemas/input.schema.json"
+    }
+  },
+  {
+    "name": "dev_tools_ps1_optimize",
+    "description": "Optimize PowerShell scripts: diagnostics, lint fixes, migrations, refactor patches, codegen, and recommendations.",
+    "parameters": {
+      "$ref": "../skills/dev-tools/ps1-optimize/schemas/input.schema.json"
+    }
+  }
+]
