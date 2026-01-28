@@ -4,6 +4,19 @@ import { severityFromTsCategory, rangeFromPos, findAnyHotspots, findComplexityHo
 import { LIMITS } from "./limits.js";
 import { shouldAnalyzeFile } from "./targets.js";
 
+function diagnosticMessageTextToString(messageText: unknown): string {
+  if (typeof messageText === "string") return messageText;
+  if (!messageText || typeof messageText !== "object") return String(messageText ?? "");
+
+  const mt = messageText as { messageText?: unknown; next?: unknown };
+  const head = typeof mt.messageText === "string" ? mt.messageText : "";
+  const next = Array.isArray(mt.next) ? (mt.next as unknown[]) : [];
+  if (!next.length) return head || "TypeScript diagnostic";
+
+  const tail = next.map(diagnosticMessageTextToString).filter(Boolean);
+  return [head, ...tail].filter(Boolean).join("\n");
+}
+
 export async function runDebug(
   ctx: ProjectContext,
   level: DebugLevel,
@@ -14,34 +27,35 @@ export async function runDebug(
   const diags = ctx.project.getPreEmitDiagnostics();
   let diagCount = 0;
 
-  for (const d of diags) {
-    const sf = d.getSourceFile();
-    const filePath = sf?.getFilePath();
-    if (filePath && !shouldAnalyzeFile(filePath, ctx.rootAbs, targets)) continue;
+	  for (const d of diags) {
+	    const sf = d.getSourceFile();
+	    const filePath = sf?.getFilePath();
+	    if (filePath && !shouldAnalyzeFile(filePath, ctx.rootAbs, targets)) continue;
 
-    diagCount += 1;
-    const cat = d.getCategory();
-    const severity = severityFromTsCategory(cat);
+	    diagCount += 1;
+	    const cat = d.getCategory();
+	    const severity = severityFromTsCategory(cat);
+	    const message = diagnosticMessageTextToString(d.getMessageText());
 
-    if (sf && d.getStart() != null && d.getLength() != null) {
-      findings.push({
-        kind: "tsc",
-        severity,
-        message: d.getMessageText(),
-        file: filePath,
-        range: rangeFromPos(sf, d.getStart()!, d.getLength()!),
-        ruleId: `TS${d.getCode()}`,
-        confidence: 1.0
-      });
-    } else {
-      findings.push({
-        kind: "tsc",
-        severity,
-        message: d.getMessageText(),
-        ruleId: `TS${d.getCode()}`,
-        confidence: 1.0
-      });
-    }
+	    if (sf && d.getStart() != null && d.getLength() != null) {
+	      findings.push({
+	        kind: "tsc",
+	        severity,
+	        message,
+	        file: filePath,
+	        range: rangeFromPos(sf, d.getStart()!, d.getLength()!),
+	        ruleId: `TS${d.getCode()}`,
+	        confidence: 1.0
+	      });
+	    } else {
+	      findings.push({
+	        kind: "tsc",
+	        severity,
+	        message,
+	        ruleId: `TS${d.getCode()}`,
+	        confidence: 1.0
+	      });
+	    }
 
     if (findings.length >= LIMITS.MAX_FINDINGS_PER_CATEGORY) break;
   }

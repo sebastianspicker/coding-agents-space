@@ -14,8 +14,9 @@ export function findEditConflicts(edits: TextEdit[]): TextEdit[] {
   const conflicts: TextEdit[] = [];
 
   for (let i = 1; i < sorted.length; i += 1) {
-    const prev = sorted[i - 1];
-    const curr = sorted[i];
+    // Safe because i starts at 1 and is < sorted.length.
+    const prev = sorted[i - 1]!;
+    const curr = sorted[i]!;
     if (curr.start < prev.end) {
       conflicts.push(prev, curr);
     }

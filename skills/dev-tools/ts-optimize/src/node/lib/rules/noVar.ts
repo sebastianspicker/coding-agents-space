@@ -9,7 +9,8 @@ export function findNoVarFindings(filePath: string, sourceText: string): Finding
   const visit = (node: ts.Node) => {
     if (ts.isVariableStatement(node)) {
       const declList = node.declarationList;
-      if (declList.flags & ts.NodeFlags.Var) {
+      // In modern TS, "var" is represented by not being block-scoped (let/const are block-scoped).
+      if ((declList.flags & ts.NodeFlags.BlockScoped) === 0) {
         findings.push({
           kind: "lint",
           severity: "warn",

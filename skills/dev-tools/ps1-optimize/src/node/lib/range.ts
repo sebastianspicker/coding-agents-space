@@ -8,7 +8,8 @@ export function rangeFromIndex(text: string, start: number, length: number): Ran
   const segment = text.slice(start, Math.max(0, start + length));
   const segmentLines = segment.split("\n");
   const endLine = startLine + segmentLines.length - 1;
-  const endCol = segmentLines.length === 1 ? startCol + segment.length : segmentLines[segmentLines.length - 1].length + 1;
+  const endCol =
+    segmentLines.length === 1 ? startCol + segment.length : segmentLines[segmentLines.length - 1]!.length + 1;
 
   return { startLine, startCol, endLine, endCol };
 }
