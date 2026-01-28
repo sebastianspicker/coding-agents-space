@@ -1,4 +1,4 @@
-> Please note: Due to the rapid increase in the number of AI agents and skills, the repository is only sporadically maintained and developed further. Some features may still be incomplete or in the early stages of development. A SKILLS.md file for each coding agent/language will be added.
+> Please note: Due to the rapid increase in the number of AI agents and skills, the repository is only sporadically maintained and developed further. Some features may still be incomplete or in the early stages of development. Switched to SKILLS.md file for each coding agent/language.
 
 # coding-agents-space
 
