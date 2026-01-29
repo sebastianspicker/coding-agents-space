@@ -1,3 +1,8 @@
+---
+name: ts-quality
+description: "Playbook for ts-quality. Use when you need quality improvements in TS/JS (lint, types, formatting, dead code, perf); you are preparing a codebase for refactor or migration; you need a punch list of issues with verified fixes."
+---
+
 # ts-quality (Playbook)
 
 ## When to use (triggers)

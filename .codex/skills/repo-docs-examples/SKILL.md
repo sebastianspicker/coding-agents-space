@@ -1,3 +1,8 @@
+---
+name: repo-docs-examples
+description: "Playbook for repo-docs-examples. Use when you changed a schema, action, or output shape and need docs updated; you added/updated `examples/input.*.json` or `expected-output` fixtures; you reorganized documentation and need links/navigation to remain correct."
+---
+
 # repo-docs-examples (Playbook)
 
 Use this when you update docs/examples and need them to stay consistent with runtime behavior and contracts.

@@ -1,3 +1,8 @@
+---
+name: repo-bisect-regressions
+description: "Playbook for repo-bisect-regressions. Use when Something used to work and now fails; you don't know which commit introduced it; The failure is intermittent but you can make it deterministic via a repro harness; you need strong evidence before making a risky fix."
+---
+
 # repo-bisect-regressions (Playbook)
 
 Use this when you suspect a regression and need to identify the offending change quickly and reproducibly.

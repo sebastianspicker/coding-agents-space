@@ -1,3 +1,8 @@
+---
+name: ts-lint
+description: "Playbook for ts-lint. Use when Lint failures block CI or local dev; you want small, deterministic style/safety fixes; you want patch-first output and controlled application."
+---
+
 # ts-lint (Playbook)
 
 Use this when you need **repeatable lint fixes** in TypeScript/JavaScript without turning the change into a refactor.

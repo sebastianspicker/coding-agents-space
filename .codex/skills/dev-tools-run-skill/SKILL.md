@@ -1,3 +1,8 @@
+---
+name: dev-tools-run-skill
+description: "Playbook for dev-tools-run-skill. Use when you want to run `ts-optimize` or `ps1-optimize` against a target project; you need to craft/adjust input JSON (`project`, `actions`, `targets`) and interpret output (`findings`, `patches`, `metrics`); you want patch-first output and a safe “apply later” workflow."
+---
+
 # dev-tools-run-skill (Playbook)
 
 Use this when you need to run the repo's **runtime skills** (`skills/dev-tools/*`) in a predictable way (Docker sandbox / local build),

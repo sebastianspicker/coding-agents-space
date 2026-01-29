@@ -1,3 +1,8 @@
+---
+name: ps1-optimize
+description: "Playbook for ps1-optimize. Use when you need PowerShell diagnostics (PSScriptAnalyzer when available) and reproducible findings; you want deterministic lint/refactor patches (whitespace), command migrations, module index codegen, or recommendations; you want patch-first output and controlled application (`applyFixes=true` only when intended)."
+---
+
 # ps1-optimize (Playbook)
 
 This playbook is the **agent-friendly cookbook** for the runtime skill at `skills/dev-tools/ps1-optimize/`.

@@ -1,3 +1,8 @@
+---
+name: repo-security-deps
+description: "Playbook for repo-security-deps. Use when `npm audit` reports vulnerabilities; you need to update dependencies safely without breaking runtime behavior; you need a lockfile policy decision (commit lockfiles vs not)."
+---
+
 # repo-security-deps (Playbook)
 
 Use this when you need to handle **dependency security and hygiene** (vulnerabilities, lockfiles, supply chain risk).

@@ -1,3 +1,8 @@
+---
+name: ts-perf
+description: "Playbook for ts-perf. Use when Hot paths are slow, CPU usage is high, memory/GC churn is suspected; A performance regression is reported; you need to justify an optimization with measurements."
+---
+
 # ts-perf (Playbook)
 
 Use this when you need to debug or improve performance in a TS/JS codebase with evidence (profiling/benchmarks).

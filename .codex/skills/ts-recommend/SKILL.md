@@ -1,3 +1,8 @@
+---
+name: ts-recommend
+description: "Playbook for ts-recommend. Use when you have a list of suggestions but no concrete plan; you need to prioritize and validate changes with evidence; you want to avoid turning a recommendation pass into a refactor spree."
+---
+
 # ts-recommend (Playbook)
 
 Use this when you have "recommendations" (from humans, linters, profilers, or `ts-optimize`) and need to turn them into verified tasks.

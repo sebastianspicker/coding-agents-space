@@ -1,3 +1,8 @@
+---
+name: ps-recommend
+description: "Playbook for ps-recommend. Use when you have guidance but no concrete plan; you need to modernize scripts safely (compat, security); you want to avoid uncontrolled refactors."
+---
+
 # ps-recommend (Playbook)
 
 Use this when you have PowerShell recommendations (security/compat/perf/style) and need to convert them into verified tasks.

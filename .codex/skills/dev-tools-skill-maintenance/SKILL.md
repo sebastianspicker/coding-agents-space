@@ -1,3 +1,8 @@
+---
+name: dev-tools-skill-maintenance
+description: "Playbook for dev-tools-skill-maintenance. Use when you change `src/` behavior, add a new rule, or add/modify an action type; you touch `schemas/*.schema.json`, `manifest.yaml`, `sandbox/*`, or `tests/*`; A downstream agent/tool expects stable I/O contracts and you must avoid breaking changes."
+---
+
 # dev-tools-skill-maintenance (Playbook)
 
 Use this when you change the **runtime skill packages** under `skills/dev-tools/*` (schemas, behavior, output shape, sandbox, tests).

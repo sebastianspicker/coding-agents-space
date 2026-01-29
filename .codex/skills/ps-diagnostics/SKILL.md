@@ -1,3 +1,8 @@
+---
+name: ps-diagnostics
+description: "Playbook for ps-diagnostics. Use when Diagnostics are missing or inconsistent between machines/CI; The runtime skill logs \"pwsh not available\" or \"PSScriptAnalyzer not available\"; you need to understand what can be analyzed and what will be skipped."
+---
+
 # ps-diagnostics (Playbook)
 
 Use this when you need PowerShell diagnostics that depend on the environment (pwsh + PSScriptAnalyzer).

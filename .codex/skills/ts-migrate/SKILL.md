@@ -1,3 +1,8 @@
+---
+name: ts-migrate
+description: "Playbook for ts-migrate. Use when Library upgrade requires import/API renames; you need a consistent change across many files; you want deterministic transforms with verification gates."
+---
+
 # ts-migrate (Playbook)
 
 Use this when you need to migrate a TypeScript/JavaScript codebase across API changes with minimal risk.

@@ -1,3 +1,8 @@
+---
+name: repo-release-versioning
+description: "Playbook for repo-release-versioning. Use when You're preparing a release of a package/tool; you changed a contract or runtime behavior and need versioning discipline; you need to decide SemVer impact (patch/minor/major)."
+---
+
 # repo-release-versioning (Playbook)
 
 Use this when you need to **ship** changes: version bumps, changelog entries, tags, and release notes.

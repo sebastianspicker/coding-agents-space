@@ -1,3 +1,8 @@
+---
+name: ts-build-debug
+description: "Playbook for ts-build-debug. Use when `tsc` errors that differ from bundler output; ESM/CJS mismatch issues (`ERR_REQUIRE_ESM`, default import weirdness); Path alias resolution breaks (`paths`, `baseUrl`), NodeNext quirks."
+---
+
 # ts-build-debug (Playbook)
 
 Use this when TS/JS **builds** fail or behave unexpectedly: tsconfig issues, ESM/CJS, moduleResolution, path aliases.

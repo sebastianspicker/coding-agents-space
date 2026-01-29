@@ -1,3 +1,8 @@
+---
+name: ps-environment
+description: "Playbook for ps-environment. Use when Scripts work locally but fail in CI or on another machine; `pwsh` vs Windows PowerShell 5.1 differences matter; Module import/lookup issues (PSModulePath), execution policy, or signing blocks execution."
+---
+
 # ps-environment (Playbook)
 
 Use this when PowerShell behavior depends on environment: PS version, ExecutionPolicy, profiles, module paths, signing.

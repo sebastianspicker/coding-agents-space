@@ -1,3 +1,8 @@
+---
+name: ts-observability
+description: "Playbook for ts-observability. Use when Bugs are hard to reproduce without better logs/metrics; you need traceability across async flows or request boundaries; you need to add debug flags without polluting production output."
+---
+
 # ts-observability (Playbook)
 
 Use this when you need to add or improve **observability** in TS/JS to make runtime debugging reliable.

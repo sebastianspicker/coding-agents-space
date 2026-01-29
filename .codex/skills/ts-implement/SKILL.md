@@ -1,3 +1,8 @@
+---
+name: ts-implement
+description: "Playbook for ts-implement. Use when you are implementing a new feature, endpoint, UI behavior, or library change in TS/JS; you need a bugfix that must land with a regression test; you need a small, safe, “patch-first” change plan rather than a refactor spree."
+---
+
 # ts-implement (Playbook)
 
 Use this when you need to **write TypeScript/JavaScript code** (feature work or bugfix) with a clean, reviewable path to verification.

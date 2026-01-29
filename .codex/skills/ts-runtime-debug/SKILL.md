@@ -1,3 +1,8 @@
+---
+name: ts-runtime-debug
+description: "Playbook for ts-runtime-debug. Use when The bug is runtime-only (not a type error): crashes, wrong results, weird state; you need to isolate a regression with strong evidence; you need to debug complex control flow or async behavior."
+---
+
 # ts-runtime-debug (Playbook)
 
 Use this for **runtime debugging** in TS/JS: stack traces, breakpoints, logging/tracing, reproducing crashes or logic bugs.

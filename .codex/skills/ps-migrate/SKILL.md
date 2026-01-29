@@ -1,3 +1,8 @@
+---
+name: ps-migrate
+description: "Playbook for ps-migrate. Use when Cmdlets need renaming (compat/security modernization); you want a mechanical transform and a verification gate."
+---
+
 # ps-migrate (Playbook)
 
 Use this when you need to migrate PowerShell scripts/modules across command changes with minimal risk.

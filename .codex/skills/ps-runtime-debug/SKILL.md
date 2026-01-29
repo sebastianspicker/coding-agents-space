@@ -1,3 +1,8 @@
+---
+name: ps-runtime-debug
+description: "Playbook for ps-runtime-debug. Use when The bug is runtime-only: script throws, wrong output, incorrect branching, unexpected environment effects; you need a minimal repro and strong evidence before changing behavior; you need to debug compatibility issues across Windows PowerShell 5.1 vs PowerShell 7+."
+---
+
 # ps-runtime-debug (Playbook)
 
 Use this for **runtime debugging** in PowerShell: unexpected output, runtime errors, environment-dependent behavior.

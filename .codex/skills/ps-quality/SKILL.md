@@ -1,3 +1,8 @@
+---
+name: ps-quality
+description: "Playbook for ps-quality. Use when you need quality improvements in PowerShell (lint, style, dead code, perf); you are preparing a module for refactor or migration; you need a punch list of issues with verified fixes."
+---
+
 # ps-quality (Playbook)
 
 ## When to use (triggers)

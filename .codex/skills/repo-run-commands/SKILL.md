@@ -1,3 +1,8 @@
+---
+name: repo-run-commands
+description: "Playbook for repo-run-commands. Use when you changed code but don't know the correct `test/build/lint/typecheck` commands; The repo uses workspaces (npm/pnpm/yarn) or multiple packages; CI runs a different set of commands than your local default."
+---
+
 # repo-run-commands (Playbook)
 
 Use this when you need to figure out **which commands to run where** to verify changes (especially in monorepos/workspaces).

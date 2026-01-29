@@ -1,3 +1,8 @@
+---
+name: ts-arch
+description: "Playbook for ts-arch. Use when Circular dependencies cause runtime issues or confusing initialization order; Boundaries are unclear and refactors keep getting stuck; you need a plan to untangle modules with minimal behavior changes."
+---
+
 # ts-arch (Playbook)
 
 Use this when you need to improve or debug a TS/JS project's architecture: cycles, layering, boundaries, module direction.

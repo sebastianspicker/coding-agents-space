@@ -1,3 +1,8 @@
+---
+name: ts-testing
+description: "Playbook for ts-testing. Use when CI failures, flaky tests, or untested bugfixes; you need to add a minimal regression test for a bug; you need to turn a repro into a stable automated test."
+---
+
 # ts-testing (Playbook)
 
 Use this when you need to debug failing tests or add regression tests in a TS/JS codebase.

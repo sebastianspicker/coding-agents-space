@@ -1,3 +1,8 @@
+---
+name: ts-deps
+description: "Playbook for ts-deps. Use when Duplicate versions of a dependency; Unexpected transitive deps end up in production bundles; Supply chain or reproducibility concerns (unpinned versions)."
+---
+
 # ts-deps (Playbook)
 
 Use this when you need to debug or improve dependency health in a TS/JS project.

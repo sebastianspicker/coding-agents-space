@@ -1,3 +1,8 @@
+---
+name: ps-testing
+description: "Playbook for ps-testing. Use when CI failures or flaky PowerShell tests; Bugfix needs a regression test; you need a stable, automatable repro."
+---
+
 # ps-testing (Playbook)
 
 Use this when you need to debug failing PowerShell tests or add regression tests (typically Pester).

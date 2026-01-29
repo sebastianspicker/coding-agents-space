@@ -1,0 +1,7 @@
+[Unit]
+Description=Example scheduled job (service)
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/job
+ExecStart=/usr/bin/env bash -lc '/opt/job/run.sh'

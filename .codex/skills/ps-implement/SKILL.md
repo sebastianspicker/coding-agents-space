@@ -1,3 +1,8 @@
+---
+name: ps-implement
+description: "Playbook for ps-implement. Use when you are implementing a new PowerShell script/module feature; you need a bugfix that should land with a regression test (Pester if available); you want minimal diffs and predictable behavior across PS versions."
+---
+
 # ps-implement (Playbook)
 
 Use this when you need to **write PowerShell code** (scripts/modules) with a clean, reviewable path to verification.

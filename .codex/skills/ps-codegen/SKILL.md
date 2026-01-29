@@ -1,3 +1,8 @@
+---
+name: ps-codegen
+description: "Playbook for ps-codegen. Use when you want an `index.psm1` that dot-sources scripts in a directory; you want to reduce manual module index maintenance."
+---
+
 # ps-codegen (Playbook)
 
 Use this when you need deterministic code generation for PowerShell modules (index.psm1, export surfaces).

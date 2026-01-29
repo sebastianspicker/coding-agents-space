@@ -1,3 +1,8 @@
+---
+name: repo-contracts
+description: "Playbook for repo-contracts. Use when you change any `contracts/*.schema.json`; you want to introduce a new field used by multiple runtime skills; you need to make a compatibility decision (additive vs breaking)."
+---
+
 # repo-contracts (Playbook)
 
 Use this when you change **shared contracts** under `contracts/` (schemas for manifests, run-results, permissions, tool definitions).

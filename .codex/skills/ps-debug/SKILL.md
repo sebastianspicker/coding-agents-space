@@ -1,3 +1,8 @@
+---
+name: ps-debug
+description: "Playbook for ps-debug. Use when PowerShell build/test failures or runtime errors in .ps1/.psm1; you need a reproducible fix with minimal change; Script/module behavior regressed."
+---
+
 # ps-debug (Playbook)
 
 ## When to use (triggers)

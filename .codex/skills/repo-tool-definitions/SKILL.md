@@ -1,3 +1,8 @@
+---
+name: repo-tool-definitions
+description: "Playbook for repo-tool-definitions. Use when you add or change a runtime skill schema under `skills/**/schemas/input.schema.json`; you rename a runtime skill or want a new tool name exposed to agents; you need to validate that tool definitions point at the correct schemas."
+---
+
 # repo-tool-definitions (Playbook)
 
 Use this when you need to define or update **tool definitions** for an agent runner (what tools exist, their names, and their input schemas).

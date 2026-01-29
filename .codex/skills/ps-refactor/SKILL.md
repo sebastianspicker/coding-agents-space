@@ -1,3 +1,8 @@
+---
+name: ps-refactor
+description: "Playbook for ps-refactor. Use when Planned refactors in PowerShell scripts/modules (rename, re-structure, module migration); Behavior must stay the same while improving structure or readability; you need controlled, low-risk changes with verification."
+---
+
 # ps-refactor (Playbook)
 
 ## When to use (triggers)

@@ -1,3 +1,8 @@
+---
+name: ts-dedupe
+description: "Playbook for ts-dedupe. Use when Suspected copy/paste blocks across files or folders; you want to reduce maintenance cost without changing behavior; you want a deterministic \"candidate list\" first, then a controlled refactor."
+---
+
 # ts-dedupe (Playbook)
 
 Use this when you need to find **duplicate code candidates** and turn them into safe follow-up changes.

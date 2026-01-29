@@ -1,3 +1,8 @@
+---
+name: repo-code-review
+description: "Playbook for repo-code-review. Use when you are reviewing a PR or preparing one for review; you need a safety pass before shipping changes; you need to assess risk in runtime skills/contracts."
+---
+
 # repo-code-review (Playbook)
 
 Use this when you need to review changes (yours or others) for correctness, safety, and maintainability.

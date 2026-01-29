@@ -1,3 +1,8 @@
+---
+name: ts-codegen
+description: "Playbook for ts-codegen. Use when you need `index.ts` barrels for stable imports; you want to reduce manual export maintenance; you need a repeatable generation step with a review gate."
+---
+
 # ts-codegen (Playbook)
 
 Use this when you need deterministic, reviewable code generation in TS/JS projects (barrels/indices, small scaffolds).

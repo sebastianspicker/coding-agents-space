@@ -1,3 +1,8 @@
+---
+name: ps-module
+description: "Playbook for ps-module. Use when Module export surface is unclear (unexpected functions exported); you need deterministic module entry points (psm1/psd1 structure); Compatibility issues between Windows PowerShell 5.1 and PowerShell 7+."
+---
+
 # ps-module (Playbook)
 
 Use this when you need to build or maintain PowerShell modules with clean packaging hygiene.

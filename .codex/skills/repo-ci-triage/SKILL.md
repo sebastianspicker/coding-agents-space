@@ -1,3 +1,8 @@
+---
+name: repo-ci-triage
+description: "Playbook for repo-ci-triage. Use when CI is red after changes; Tests are flaky or environment-dependent; Lint/typecheck/build passes locally but fails in CI."
+---
+
 # repo-ci-triage (Playbook)
 
 Use this when CI fails and you need a systematic way to reproduce and fix it locally.

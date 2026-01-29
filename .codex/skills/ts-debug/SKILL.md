@@ -1,3 +1,8 @@
+---
+name: ts-debug
+description: "Playbook for ts-debug. Use when TypeScript/JavaScript build or test failures; Runtime errors, type errors, or regressions in TS/JS code; you need a minimal, well-scoped fix with proof."
+---
+
 # ts-debug (Playbook)
 
 ## When to use (triggers)

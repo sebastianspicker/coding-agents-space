@@ -1,3 +1,8 @@
+---
+name: repo-git-pr-workflow
+description: "Playbook for repo-git-pr-workflow. Use when you are preparing a PR and want reviewable, low-risk diffs; you need to split a large change into safe steps; you want consistent commit messages and verification evidence."
+---
+
 # repo-git-pr-workflow (Playbook)
 
 Use this when you need a predictable **branch/commit/PR workflow** for code changes.

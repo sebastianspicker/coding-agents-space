@@ -1,3 +1,8 @@
+---
+name: ts-bundle
+description: "Playbook for ts-bundle. Use when Bundle size regressions; Tree-shaking not working (unexpected large deps in output); Slow load times traced to JS payload."
+---
+
 # ts-bundle (Playbook)
 
 Use this when you need to debug web/bundle size issues, tree-shaking failures, or slow page loads in TS/JS projects.

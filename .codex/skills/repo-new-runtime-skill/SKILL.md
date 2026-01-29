@@ -1,3 +1,8 @@
+---
+name: repo-new-runtime-skill
+description: "Playbook for repo-new-runtime-skill. Use when you are adding a new skill (new domain or new capability); you want a reproducible template for manifests/schemas/sandbox/tests; you need to wire the skill into agent tooling (tool definitions) and docs."
+---
+
 # repo-new-runtime-skill (Playbook)
 
 Use this when you want to add a **new runtime skill package** under `skills/<domain>/<skill>/` without breaking the repo conventions.

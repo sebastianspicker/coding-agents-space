@@ -1,3 +1,8 @@
+---
+name: ts-optimize
+description: "Playbook for ts-optimize. Use when you want TypeScript/JavaScript diagnostics beyond “just run tsc”; you need dedupe candidates, conservative lint fixes, import migrations, barrel codegen, or optimization recommendations; you want patch-first output (review diffs before applying)."
+---
+
 # ts-optimize (Playbook)
 
 This playbook is the **agent-friendly cookbook** for the runtime skill at `skills/dev-tools/ts-optimize/`.

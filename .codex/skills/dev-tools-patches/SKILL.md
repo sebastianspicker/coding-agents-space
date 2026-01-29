@@ -1,3 +1,8 @@
+---
+name: dev-tools-patches
+description: "Playbook for dev-tools-patches. Use when `ts-optimize` / `ps1-optimize` returned patches and you want a safe “patch-first” workflow; you need to decide between manual application vs `applyFixes=true`; you want to avoid accidental writes outside `/workspace`."
+---
+
 # dev-tools-patches (Playbook)
 
 Use this when a runtime skill returns `data.patches[]` (unified diffs) and you need to review/apply them safely.

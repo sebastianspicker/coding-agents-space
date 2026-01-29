@@ -1,3 +1,8 @@
+---
+name: ps-lint
+description: "Playbook for ps-lint. Use when Formatting/whitespace issues create noisy diffs or CI failures; you want to remove unsafe patterns (e.g., Write-Host usage) via findings + follow-up."
+---
+
 # ps-lint (Playbook)
 
 Use this when you need deterministic linting improvements in PowerShell scripts/modules without changing behavior.
