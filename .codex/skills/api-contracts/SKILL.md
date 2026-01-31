@@ -58,8 +58,8 @@ Use this to treat API schemas as a source of truth: define, version, validate, a
   - Known-invalid payloads fail with clear errors.
 
 ## Templates
-- OpenAPI skeleton: `assets/openapi.skeleton.yaml`
-- JSON Schema skeleton: `assets/jsonschema.skeleton.json`
+- OpenAPI template: `assets/openapi.template.yaml`
+- JSON Schema template: `assets/jsonschema.template.json`
 - Contract change checklist: `assets/contract-change-checklist.md`
 - Contract fixtures folder conventions: `references/fixtures-layout.md`
 
@@ -74,4 +74,3 @@ Use this to treat API schemas as a source of truth: define, version, validate, a
 
 ## Credits
 - Written as a repo-first playbook; aligns with common schema-driven API design and compatibility practices.
-

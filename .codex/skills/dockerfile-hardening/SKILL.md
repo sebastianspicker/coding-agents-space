@@ -45,7 +45,7 @@ Use this when authoring or hardening Dockerfiles so they’re safer, smaller, an
 - Add `.dockerignore` to avoid accidental context bloat.
 
 ## Templates
-- Hardened Dockerfile skeleton: `assets/Dockerfile.skeleton`
+- Hardened Dockerfile template: `assets/Dockerfile.template`
 - `.dockerignore` starter: `assets/dockerignore.txt`
 - Dockerfile review checklist: `references/dockerfile-checklist.md`
 

@@ -11,7 +11,7 @@ They complement (and do not replace) the **runtime skills** under `skills/dev-to
 - Naming conventions: [NAMING.md](NAMING.md)
 
 ## Validation
-- Local sanity check: `python3 scripts/validate-codex-skills.py`
+- Local sanity check: `python3 scripts/codex/validate_skills.py` (or legacy: `python3 scripts/validate-codex-skills.py`)
 - Reference validator (optional): `skills-ref validate .codex/skills/<skill-name>`
 
 ## General engineering guardrails

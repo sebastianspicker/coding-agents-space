@@ -1,3 +1,4 @@
+# OpenAPI template (starter)
 openapi: 3.1.0
 info:
   title: Example API
@@ -34,4 +35,3 @@ components:
         request_id:
           type: string
       required: [error_code, message]
-

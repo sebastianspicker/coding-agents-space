@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Template: replace `script-name` and adjust flags/args to your needs.
+
 usage() {
   cat >&2 <<'EOF'
 Usage:

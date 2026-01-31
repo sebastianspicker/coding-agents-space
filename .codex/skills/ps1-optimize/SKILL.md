@@ -172,7 +172,7 @@ npm test
 - `skills/dev-tools/ps1-optimize/README.md`
 - `skills/dev-tools/ps1-optimize/schemas/input.schema.json`
 
-## Suggested future enhancements (not implemented yet)
+## Suggested future enhancements (intentionally out of scope here)
 - Implement `targets.changedOnly` (accept explicit changed-file list; avoid implicit git coupling in the sandbox).
 - Add safe migrations beyond cmdlet renames (parameter renames, common alias cleanup) with opt-in rules.
 - Offer a richer module/codegen mode (e.g., support subfolders, stable export ordering, or generating `Export-ModuleMember` stubs).

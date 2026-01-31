@@ -28,6 +28,11 @@ This repo has two layers:
 ## Verify changes
 Derive commands from each skill's `package.json`.
 
+Repo-wide shortcut:
+```
+./scripts/verify.sh
+```
+
 ### ts-optimize
 ```
 cd skills/dev-tools/ts-optimize

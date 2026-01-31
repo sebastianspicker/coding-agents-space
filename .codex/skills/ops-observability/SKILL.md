@@ -15,7 +15,7 @@ Use this to make systems *observable enough* to debug and operate safely: consis
 
 ## Inputs / Outputs
 - Inputs: service boundaries, deployment environment(s), current logging/metrics stack, known failure modes, SLIs/SLOs (if any).
-- Outputs: instrumentation plan + minimal patches (code + config) + dashboards/alerts/runbook stubs + verification steps.
+- Outputs: instrumentation plan + minimal patches (code + config) + dashboards/alerts/runbook templates + verification steps.
 
 ## Step sequence (Define -> Instrument -> Alert -> Runbook -> Verify)
 1) Define
@@ -27,7 +27,7 @@ Use this to make systems *observable enough* to debug and operate safely: consis
    - Traces: add spans at service boundaries if you already have tracing; otherwise defer.
 3) Alert (actionable only)
    - Alert on symptoms (SLO burn, error rate, latency) before causes.
-   - Every alert must have an owner and a runbook link (even if stub).
+   - Every alert must have an owner and a runbook link (even if only a template).
 4) Runbook
    - Add “how to confirm”, “how to mitigate”, and “how to roll back” sections.
 5) Verify
@@ -61,7 +61,7 @@ Use this to make systems *observable enough* to debug and operate safely: consis
 
 ## Templates
 - Instrumentation plan: `assets/instrumentation-plan.md`
-- Runbook stub: `assets/runbook-stub.md`
+- Runbook template: `assets/runbook-template.md`
 - Logging field conventions: `references/logging-fields.md`
 
 ## Definition of Done

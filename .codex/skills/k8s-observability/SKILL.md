@@ -29,7 +29,7 @@ Use this to make Kubernetes workloads observable enough to operate: dashboards, 
 4) Alert
    - Use symptom-first alerts (SLO burn, error rate, latency) and avoid noise.
 5) Runbook
-   - Link a runbook to every alert (even if stub).
+   - Link a runbook to every alert (even if only a template).
 6) Verify
    - Simulate a controlled failure and confirm signals + runbook usefulness.
 
@@ -61,4 +61,3 @@ Use this to make Kubernetes workloads observable enough to operate: dashboards, 
 ## Related skills
 - `ops-observability` for general instrumentation and alert quality.
 - `ops-incident-response` and `ops-postmortem` for operational workflows.
-

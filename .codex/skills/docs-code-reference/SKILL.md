@@ -32,7 +32,7 @@ Use this when documenting code so that it’s accurate, testable, and maintainab
    - Run a smoke test of examples where feasible.
 
 ## Common pitfalls
-- Docs describing “future behavior” not implemented.
+- Docs describing “future behavior” instead of current behavior.
 - Examples that don’t run.
 - Specs drifting from code (status codes, field names, auth requirements).
 

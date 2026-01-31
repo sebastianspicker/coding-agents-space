@@ -12,7 +12,8 @@ dist/
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
 
 # Test output
 coverage/

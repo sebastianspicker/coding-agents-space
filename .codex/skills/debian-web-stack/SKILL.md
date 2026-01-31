@@ -29,7 +29,7 @@ Use this to run web apps safely on Debian with systemd and a reverse proxy.
    - Create a mini runbook (deploy/rollback/rotate secrets).
 
 ## Templates
-- systemd unit skeleton: `assets/systemd-unit.service`
+- systemd unit template: `assets/systemd-unit.service`
 - Deployment checklist: `assets/deploy-checklist.md`
 - Permissions checklist: `references/permissions.md`
 
@@ -42,4 +42,3 @@ Use this to run web apps safely on Debian with systemd and a reverse proxy.
 - `reverse-proxy-nginx` / `reverse-proxy-traefik` / `reverse-proxy-caddy`
 - `tls-acme-automation`
 - `linux-service-debug`
-

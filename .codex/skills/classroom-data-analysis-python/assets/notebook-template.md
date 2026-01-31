@@ -1,4 +1,6 @@
-# Classroom analysis notebook skeleton (template)
+# Classroom analysis notebook template
+
+Copy this into a new notebook and replace the bullets with concrete code/cells for your dataset.
 
 ## 0. Setup
 - Import packages
@@ -29,4 +31,3 @@
 
 ## 6. Handout
 - Short conclusions + limitations
-

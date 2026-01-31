@@ -1,4 +1,6 @@
-# Runbook (stub)
+# Runbook template
+
+Fill this out for a specific service/alert. Keep mitigations reversible and include links to dashboards/log queries.
 
 ## Summary
 - Service / component:
@@ -29,4 +31,3 @@
 ## Escalation
 - Who to page next:
 - External vendor contacts (if any):
-

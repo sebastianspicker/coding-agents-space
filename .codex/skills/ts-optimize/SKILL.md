@@ -202,7 +202,7 @@ npm test
 - `skills/dev-tools/ts-optimize/README.md`
 - `skills/dev-tools/ts-optimize/schemas/input.schema.json`
 
-## Suggested future enhancements (not implemented yet)
+## Suggested future enhancements (intentionally out of scope here)
 - Implement `targets.changedOnly` (e.g., accept an explicit changed-file list or integrate with git when available).
 - Add more deterministic, low-risk lint rules (unused imports, import ordering, no-shadow) guarded by strict safety checks.
 - Implement additional `refactorGoals` as real rewrites (currently recommendation-only): `reduce-any`, `tighten-types`, `remove-dead-code`, etc.

@@ -37,8 +37,8 @@ Use this to implement shell scripts that are **predictable**, **portable enough*
    - Run `shellcheck` and format (if tools exist).
    - Run minimal unit-like checks by invoking the script with representative inputs.
 
-## Recommended script skeleton (bash)
-Use `assets/bash-skeleton.sh` as a starting point.
+## Recommended script template (bash)
+Use `assets/bash-template.sh` as a starting point.
 
 ## Common requirements
 - Deterministic output (stable ordering).
@@ -64,8 +64,8 @@ Use `assets/bash-skeleton.sh` as a starting point.
 - `sh-quality` to harden existing scripts without behavior changes.
 
 ## References
-- Bash skeleton: `assets/bash-skeleton.sh`
-- POSIX sh skeleton: `assets/sh-skeleton.sh`
+- Bash template: `assets/bash-template.sh`
+- POSIX sh template: `assets/sh-template.sh`
 
 ## Credits
 - Influenced by CLI ergonomics patterns from [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) (help/error conventions; rewritten for shell scripts).

@@ -14,7 +14,7 @@ Use this to analyze classroom/lab data in a way that is robust, reproducible, an
 
 ## Inputs / Outputs
 - Inputs: exported data files, data dictionary, expected units, privacy constraints (no personal identifiers).
-- Outputs: notebook skeleton + cleaned dataset + summary plots + grading-friendly summary tables/report.
+- Outputs: notebook template + cleaned dataset + summary plots + grading-friendly summary tables/report.
 
 ## Step sequence (Ingest -> Clean -> Validate -> Summarize -> Export -> Handout)
 1) Ingest
@@ -31,7 +31,7 @@ Use this to analyze classroom/lab data in a way that is robust, reproducible, an
    - Generate a short, privacy-safe report/handout for sharing.
 
 ## Templates
-- Notebook skeleton: `assets/notebook-skeleton.md`
+- Notebook template: `assets/notebook-template.md`
 - Plotting checklist: `references/plotting.md`
 - Grading summary template: `assets/grading-summary.md`
 
@@ -42,4 +42,3 @@ Use this to analyze classroom/lab data in a way that is robust, reproducible, an
 
 ## Related skills
 - `phyphox-lab-workflow` and `uncertainty-propagation-and-units`.
-

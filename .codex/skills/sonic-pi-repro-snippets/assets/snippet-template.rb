@@ -5,9 +5,8 @@
 
 define :<snippet_name> do |density: 0.5, seed: 1234|
   use_random_seed seed
-  # TODO: pattern
+  # Pattern goes here.
 end
 
 # Example:
 # <snippet_name>(density: 0.7, seed: 42)
-

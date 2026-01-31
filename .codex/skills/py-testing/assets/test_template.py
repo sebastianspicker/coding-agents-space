@@ -1,7 +1,7 @@
 import pytest
 
 
-def test_behavior_name_here() -> None:
+def test_example_behavior() -> None:
     # Arrange
     value = 1
 

@@ -51,7 +51,7 @@ Use this to add tests that are **stable**, **fast**, and **actually verify behav
 
 ## Templates
 - Regression test checklist: `references/regression-checklist.md`
-- `pytest` test file skeleton: `assets/test_skeleton.py`
+- `pytest` test file template: `assets/test_template.py`
 
 ## Credits
 - TDD workflow alignment inspired by [obra/superpowers](https://github.com/obra/superpowers) and modern Python testing patterns.

@@ -14,14 +14,14 @@ Use this to draft papers in LaTeX with a repeatable build and a clean citation w
 
 ## Inputs / Outputs
 - Inputs: target venue format (if any), author list, bibliography sources, figure/table generation pipeline.
-- Outputs: LaTeX project skeleton + build commands + citation discipline + submission-ready checklist.
+- Outputs: LaTeX project template + build commands + citation discipline + submission-ready checklist.
 
 ## Step sequence (Scaffold -> Write -> Cite -> Figure -> Build -> Polish)
 1) Scaffold
-   - Start from a minimal project skeleton and add sections incrementally.
+   - Start from a minimal project template and add sections incrementally.
 2) Write (structure-first)
    - Use a stable structure (IMRaD or venue template).
-   - Track claims that require citations as TODOs until sourced.
+   - Track claims that require citations explicitly (e.g., “needs citation”) until sourced.
 3) Cite (BibTeX discipline)
    - One claim -> one citation (or justify why not).
    - Keep BibTeX entries clean and deduplicated.
@@ -44,7 +44,7 @@ Use this to draft papers in LaTeX with a repeatable build and a clean citation w
   - obvious overfull hboxes caused by broken formatting
 
 ## Templates
-- Minimal project skeleton: `assets/main.tex`
+- Minimal project template: `assets/main.tex`
 - BibTeX starter: `assets/references.bib`
 - `latexmk` Makefile: `assets/Makefile`
 - Submission checklist: `references/submission-checklist.md`
@@ -60,4 +60,3 @@ Use this to draft papers in LaTeX with a repeatable build and a clean citation w
 
 ## Credits
 - Written as a repo-first LaTeX workflow; aligns with common latexmk/BibTeX best practices.
-
